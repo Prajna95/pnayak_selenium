@@ -9,7 +9,7 @@
 	
   <test thread-count="5" name="CommonCls_Selenium">
     <classes>
-      <class name="Prajna.SeleniumFramework_test.CommonCls_Selenium"/>
+      <class name="Prajna.SeleniumFramework_test.CommonCls_Selenium_ench"/>
     </classes>
   </test> 
   
