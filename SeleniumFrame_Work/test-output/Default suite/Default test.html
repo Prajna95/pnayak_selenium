@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 24 18:31:06 IST 2025</td>
+<td>Started on:</td><td>Sun Mar 02 22:03:03 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17119 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (310 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,18 +67,25 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SeleniumFramework.extentreports.extentReport.initialDemo()'><b>initialDemo</b><br>Test class: SeleniumFramework.extentreports.extentReport</td>
-<td></td>
-<td>16</td>
-<td>SeleniumFramework.extentreports.extentReport@78b66d36</td></tr>
+<td title='cucumber.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Postivite Test Case for Submitting the order", "Purchase order from ECom page"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;SeleniumFramework_PageObjectModel.LoginPage.loginApplication(String, String)&quot; because &quot;this.login&quot; is null
+	at SeleniumFramework.stepDefination.StepDefinationImpl.login_to_the_e_com_page_by_using_username_and_password(StepDefinationImpl.java:35)
+	at ✽.login to the ECom page by using username prajna@gmail.com and password Lipa@0811(file:///Users/prajna.nayak/Documents/eclipse-workspace/SeleniumFrame_Work/src/test/java/cucumber/purches.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1564892747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1564892747'><pre>java.lang.NullPointerException: Cannot invoke &quot;SeleniumFramework_PageObjectModel.LoginPage.loginApplication(String, String)&quot; because &quot;this.login&quot; is null
+	at SeleniumFramework.stepDefination.StepDefinationImpl.login_to_the_e_com_page_by_using_username_and_password(StepDefinationImpl.java:35)
+	at ✽.login to the ECom page by using username prajna@gmail.com and password Lipa@0811(file:///Users/prajna.nayak/Documents/eclipse-workspace/SeleniumFrame_Work/src/test/java/cucumber/purches.feature:11)
+</pre></div></td>
+<td>0</td>
+<td>cucumber.TestNGTestRunner@76508ed1</td></tr>
 </table><p>
 </body>
 </html>
